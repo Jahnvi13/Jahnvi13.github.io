@@ -78,6 +78,13 @@ body.dark-theme{
     --container-color: hsl(var(--hue-color), 29%, 16%);
 }
 
+/* Project titles black in dark mode */
+body.dark-theme #dev-projects .section__subtitle,
+body.dark-theme #ml-projects .section__subtitle,
+body.dark-theme .projects__title {
+    color: #111 !important;
+}
+
 /*========== Button Dark/Light ==========*/
 .nav__btns{
     display: flex;
@@ -412,6 +419,21 @@ ul.achievements__list li{list-style-type: disc;}
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0,0,0,.15);
     transition: .3s;
+    background-size: contain;      /* changed from cover to contain */
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.projects__content::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.85); /* subtle overlay for readability */
+    z-index: 0;
+}
+.projects__content > * {
+    position: relative;
+    z-index: 1;
 }
 
 .projects__content:hover{
@@ -486,18 +508,6 @@ ul.achievements__list li{list-style-type: disc;}
     opacity: 1;
     visibility: visible;
 }
-
-/*==================== PORTFOLIO ====================*/
-
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
-/*==================== CONTACT ME ====================*/
-
 
 /*==================== FOOTER ====================*/
 .footer{
