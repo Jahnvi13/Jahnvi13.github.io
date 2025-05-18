@@ -4,7 +4,7 @@ const qualifications = [
     icon: "uil-laptop",
     items: [
       "Cloud Computing (CSE569)",
-      "(TAed) Distributed Systems",
+      "(TAed) Distributed Systems (CSE530)",
       "Computer Graphics (CSE333)",
       "Computer Networks (CSE232)",
       "Theory of Computation (CSE322)",
@@ -41,7 +41,7 @@ const qualifications = [
     title: "Maths",
     icon: "uil-calculator-alt",
     items: [
-      "Introduction to Mathematical Logic",
+      "Introduction to Mathematical Logic (MTH300)",
       "Discrete Mathematics (CSE121)",
       "Multivariable Calculus (MTH203)",
       "Probability and Statistics (MTH201)",
