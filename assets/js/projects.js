@@ -1,4 +1,14 @@
 const devProjects = [
+   {
+    title: "Poppy - Video Chat Application",
+    image: "assets/img/poppy-image.png",
+    period: "Jun 2021",
+    description: "Built a full stack video chat application using Object Oriented Programming and Design Patterns",
+    tech: "WebRTC, Peer-to-PeerJS, NodeJS, Express servers and React hooks",
+    link: "https://github.com/Jahnvi13/Poppy-j",
+    linkText: "See code",
+    team: "Team Size: 1"
+  },
   {
     title: "Avaas",
     image: "assets/img/avaas-bg.jpg",
@@ -20,6 +30,16 @@ const devProjects = [
     team: "Team Size: 2"
   },
   {
+    title: "Portfolio Website",
+    image: "assets/img/portfolio.png",
+    period: "Aug. 2019 - May. 2021",
+    description: "I made this website long ago and kept refining it as and when I learnt something new.",
+    tech: "HTML-CSS, Javascript",
+    link: "https://github.com/Jahnvi13/Jahnvi13.github.io",
+    linkText: "See code",
+    team: "Team Size: 1"
+  },
+  {
     title: "FitLight Forearm Band",
     image: "assets/img/fitlight-forearm.jpg",
     period: "Sep. 2019 - Oct. 2019",
@@ -39,29 +59,40 @@ const devProjects = [
     linkText: "See code",
     team: "Team Size: 3"
   },
-  {
-    title: "Portfolio Website",
-    image: "assets/img/portfolio.png",
-    period: "Aug. 2019 - May. 2021",
-    description: "I made this website long ago and kept refining it as and when I learnt something new.",
-    tech: "HTML-CSS, Javascript",
-    link: "https://github.com/Jahnvi13/Jahnvi13.github.io",
-    linkText: "See code",
-    team: "Team Size: 1"
-  },
-  {
-    title: "Poppy - Video Chat Application",
-    image: "assets/img/poppy-image.png",
-    period: "Jun 2021",
-    description: "Built a full stack video chat application using Object Oriented Programming and Design Patterns",
-    tech: "WebRTC, Peer-to-PeerJS, NodeJS, Express servers and React hooks",
-    link: "https://github.com/Jahnvi13/Poppy-j/tree/main",
-    linkText: "See code",
-    team: "Team Size: 1"
-  },
 ];
 
 const mlProjects = [
+  {
+    title: "fAIrConnect",
+    image: "assets/img/fairconnect.png",
+    period: "Apr 2024",
+    description: "Built a virtual career fair in a Unity with AI powered company spokespersons. Used VertexAI for knowledge distillation and finetuned Gemma with company job descriptions to build a \
+    domain-adapted general purpose LLM. Integrated GCP Text to Speech and Speech to Text APIs for voice recognition capabilities.",
+    tech: "Unity, Gemma, LoRA, Google Cloud",
+    link: "https://github.com/Jahnvi13/fAIrConnect",
+    linkText: "See project",
+    team: "Team Size: 1"
+  },
+  {
+    title: "DisenCDR",
+    image: "assets/img/recommender-img.png",
+    period: "Feb 2023 - Apr 2023",
+    description: "Built a k-domain representation model of user-item interaction for cross-domain recommendation. Incorporated sentiments as edge weights using Amazon review dataset and developed a sentiment based loss function to compare with existing models.",
+    tech: "DL, Tensorflow, Python",
+    link: "https://github.com/udit19120/IR_Project",
+    linkText: "See project",
+    team: "Team Size: 6"
+  },
+  {
+    title: "EmojiPred",
+    image: "assets/img/emoji-pred.png",
+    period: "Aug 2021 - Nov 2021",
+    tech: "Python, Jupyter, NLP, Tensorflow",
+    description: "Built DL based emoji recommendation keyboard for English and Indian languages using data augmentation on 70K anonymised tweets and achieved 77%, 59%, 68%, 76% top-5 accuracy for English, Hindi, Bengali and Telugu.",
+    link: "https://docs.google.com/presentation/d/10TT6tTmr21JzRlKqFqwZRolJL12UyJ8mHa2Py4Z-0Lc/edit?usp=sharing",
+    linkText: "See presentation",
+    team: "Team Size: 3"
+  },
   {
     title: "Image to Latex Conversion",
     image: "assets/img/maths-equation.png",
@@ -73,56 +104,26 @@ const mlProjects = [
     team: "Team Size: 1"
   },
   {
-    title: "DisenCDR",
-    image: "assets/img/recommender-img.png",
-    period: "Feb 2023 - Apr 2023",
-    description: "Built a k-domain representation model of user-item interaction for cross-domain recommendation. Incorporated sentiments as edge weights using Amazon review dataset and developed a sentiment based loss function to compare with existing models.",
-    tech: "DL, Tensorflow, Python",
-    link: "https://github.com/Jahnvi13/Image-to-Latex",
+    title: "IPL Match Analysis",
+    image: "assets/img/Batting.webp",
+    period: "Aug 2021 - Nov 2021",
+    description: "Built a Machine Learning pipeline to predict the winner of an IPL cricket match obtaining an accuracy of 92%. Experimented with multiple models like SVMs and Decision Trees and leveraged player’s historic performance.",
+    tech: "ML, Tensorflow, Python ",
+    link: "https://github.com/Jahnvi13/IPL-Analysis",
     linkText: "See project",
-    team: "Team Size: 5"
-  },
-  {
-    title: "EmojiPred",
-    image: "assets/img/emoji-pred.png",
-    period: "May 2021 - Jul 2021",
-    description: "Built a Deep learning model to convert images of mathematical equations to Latex using Visual Attention. Improved the Word Error Rate (WER) from 24% to 14% using transformers, visual attention and beam search.",
-    tech: "Python, Google Colab., Tensorflow, Keras etc.",
-    link: "https://github.com/Jahnvi13/Image-to-Latex",
-    linkText: "See project",
-    team: null
-  },
-  {
-    title: "fAIrConnect",
-    image: "assets/img/fairconnect.png",
-    period: "May 2021 - Jul 2021",
-    description: "Built a Deep learning model to convert images of mathematical equations to Latex using Visual Attention. Improved the Word Error Rate (WER) from 24% to 14% using transformers, visual attention and beam search.",
-    tech: "Python, Google Colab., Tensorflow, Keras etc.",
-    link: "https://github.com/Jahnvi13/Image-to-Latex",
-    linkText: "See project",
-    team: null
+    team: "Team Size: 3"
   },
   {
     title: "GAN",
     image: "assets/img/gan.png",
-    period: "May 2021 - Jul 2021",
-    description: "Built a Deep learning model to convert images of mathematical equations to Latex using Visual Attention. Improved the Word Error Rate (WER) from 24% to 14% using transformers, visual attention and beam search.",
+    period: "Apr 2021 - Jul 2021",
+    description: "Generated realistic images from given text using Universal Sentence Encoder text embedding, convolution and affine blocks in the Generator and downsampling in the Discriminator module. \
+    Incorporated interpolation in the Generator module to achieve higher inception scores.",
     tech: "Python, Google Colab., Tensorflow, Keras etc.",
-    link: "https://github.com/Jahnvi13/Image-to-Latex",
+    link: "https://github.com/Jahnvi13/Text-to-Image",
     linkText: "See project",
-    team: null
+    team: "Team Size: 3"
   },
-  {
-    title: "IPL Match Analysis",
-    image: "assets/img/Batting.webp",
-    period: "May 2021 - Jul 2021",
-    description: "Built a Machine Learning pipeline to predict the winner of an IPL cricket match obtaining an accuracy of 92%. Experimented with multiple models like SVMs and Decision Trees and leveraged player’s historic performance.",
-    tech: "ML, Tensorflow, Python ",
-    link: "https://github.com/Jahnvi13/Image-to-Latex",
-    linkText: "See project",
-    team: null
-  },
-  
 ];
 
 function renderProjects(projects, rootId) {

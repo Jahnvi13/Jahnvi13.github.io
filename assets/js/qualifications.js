@@ -3,6 +3,10 @@ const qualifications = [
     title: "CS/ECE",
     icon: "uil-laptop",
     items: [
+      "Cloud Computing (CSE569)",
+      "(TAed) Distributed Systems",
+      "Computer Graphics (CSE333)",
+      "Computer Networks (CSE232)",
       "Theory of Computation (CSE322)",
       "Fundamentals of Database Management Systems (CSE202)",
       "Analysis and Design of Algorithms (CSE222)",
@@ -20,6 +24,14 @@ const qualifications = [
     title: "AI/ML",
     icon: "uil-brain",
     items: [
+      "Collaborative Filtering (CSE640)",
+      "Information Retrieval (CSE508)",
+      "Data Mining (CSE506)",
+      "Deep Learning (CSE641)",
+      "Computer Vision (CSE344)",
+      "Machine Learning (CSE343)",
+      "Artificial Intelligence (CSE643)",
+      "Natural Language Processing (CSE556)",
       "Statistical Machine Learning (CSE342/CSE542)",
       "Convex Optimization (MTH377)",
       "Introduction to Intelligent Systems (CSE140)"
@@ -29,6 +41,7 @@ const qualifications = [
     title: "Maths",
     icon: "uil-calculator-alt",
     items: [
+      "Introduction to Mathematical Logic",
       "Discrete Mathematics (CSE121)",
       "Multivariable Calculus (MTH203)",
       "Probability and Statistics (MTH201)",
